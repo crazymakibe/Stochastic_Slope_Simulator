@@ -1,0 +1,40 @@
+# SECRETS & API KEYS 
+.env
+gis_fetcher/.env
+secrets.json
+
+# C++ BUILD  ARTIFACTS
+**/build/
+**/bin/
+**/obj/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+
+# PYTHON / DASHBOARD
+__pycache__/
+*.py[cod]
+*$py.class
+.streamlit/
+venv/
+env/
+
+# --- DATA & GEOSPATIAL ---
+# Ignore large raw terrain files (keep the repo light)
+shared_data/*.tif
+shared_data/*.tiff
+
+# --- OS / IDE SPECIFIC ---
+.DS_Store
+.vscode/
+.idea/
+.docker_temp/
+
+# --- WHAT TO KEEP (Exceptions) ---
+# Ensure results.csv is tracked so the cloud dashboard can read it
+!shared_data/results.csv
+!results.csv

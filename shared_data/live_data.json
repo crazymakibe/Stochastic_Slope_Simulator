@@ -1,0 +1,14 @@
+{
+    "metadata": {
+        "location": "Joshimath, Uttarakhand",
+        "coordinates": {
+            "lat": 30.5505,
+            "lon": 79.5656
+        },
+        "last_updated": "2026-02-25T21:29:38.978628"
+    },
+    "parameters": {
+        "rainfall_mm_z": 0.3,
+        "temp_c": 8.6
+    }
+}
