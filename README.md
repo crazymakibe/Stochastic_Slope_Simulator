@@ -53,7 +53,6 @@ $$P_f = \frac{1}{N} \sum_{j=1}^{N} \mathbb{I}(FoS_j < 1.0)$$
 
 ## 3. Project Structure
 
-.
 ├── gis_fetcher/           # GDAL-based terrain extraction
 
 ├── fem_solver/            # C++/deal.II Source Code
