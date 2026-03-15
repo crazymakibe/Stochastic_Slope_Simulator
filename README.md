@@ -75,8 +75,8 @@ $$P_f = \frac{1}{N} \sum_{j=1}^{N} \mathbb{I}(FoS_j < 1.0)$$
 
 ### Installation
 1. Clone the repository:
-   git clone https://github.com/crazymakibe/joshimath-stochastic-stability.git
-   cd joshimath-stochastic-stability
+   git clone https://github.com/crazymakibe/Stochastic_Slope_Simulator.git
+   cd Stochastic_Slope_Simulator
 
 2. Generate the Terrain Data:
    Ensure your .env is set in gis_fetcher/, then run the fetcher to generate the GeoTIFF.
