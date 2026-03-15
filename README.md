@@ -75,7 +75,7 @@ $$P_f = \frac{1}{N} \sum_{j=1}^{N} \mathbb{I}(FoS_j < 1.0)$$
 
 ### Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/joshimath-stochastic-stability.git
+   git clone https://github.com/crazymakibe/joshimath-stochastic-stability.git
    cd joshimath-stochastic-stability
 
 2. Generate the Terrain Data:
